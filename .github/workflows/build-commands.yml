@@ -20,5 +20,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t ghcr.io/$GITHUB_REPOSITORY/$IMAGE_NAME:latest .
-          docker push ghcr.io/$GITHUB_REPOSITORY/$IMAGE_NAME:latest
+          docker build -t ghcr.io/brycatch/$GITHUB_REPOSITORY/$IMAGE_NAME:latest .
+          docker push ghcr.io/brycatch/$GITHUB_REPOSITORY/$IMAGE_NAME:latest
