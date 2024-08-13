@@ -9,9 +9,6 @@ env:
   DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-  
   build-and-push-image:
     runs-on: ubuntu-latest
     permissions:
