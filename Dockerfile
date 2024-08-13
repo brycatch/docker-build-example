@@ -1,3 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:6.0.26-alpine3.19 AS base
+FROM mcr.microsoft.com/windows/nanoserver:ltsc2022
+
 
 CMD echo "Hello world"
